@@ -51,8 +51,14 @@ body {
 .testimonial__item--1 {
   color: var(--color-primary-white);
   background-color: var(--color-primary-violet);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 25%;
+  background-size: 130px;
   grid-column: 1/3;
   grid-row: 1/2;
+
+  position: relative;
 
   & .testimonial__item-preview {
     color: var(--color-neutral-gry);
@@ -129,7 +135,7 @@ body {
 }
 
 .testimonial__item-title {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 600;
 }
 
